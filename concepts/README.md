@@ -1,8 +1,8 @@
-#HTML
+# HTML
 HTML es un lenguaje de etiquetado, con el que podremos segmentar nuestro diseño utilizando las etiquetas correctas para poder luego aplicarle un diseño a este. Existen diferentes enfoques a la hora de escribir codigo HTML; esto dependera del objetivo del producto, podemos escribir codigo que sea amistoso para el [SEO](https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores), utilizando etiquetas [semanticas](https://desarrolloweb.com/articulos/etiquetas-semanticas-html5.html), estructurando el contenido con [esquemas](https://platzi.com/blog/schema-seo/) y creando interfaces [accesibles](https://www.udemy.com/aprende-accesibilidad-web-paso-a-paso/) utilizando atributos de [accesibilidad](https://developers.google.com/web/fundamentals/accessibility/?hl=es). No existe una regla de como estructurar el html, pero si quieres obtener beneficios con el seo y la accesibilidad tendras que seguir las reglas del uso de etiquetas semanticas, metadata y roles de accesibilidad. Recuerden que un diseño es el conjunto de pequeños bloques que cumplen una funcion y conocer las etiquetas correctas para armar nuestro diseño nos ayudara a trabajar de manera mas rapida.
 
 
-##Que son las etiquetas semanticas
+## Que son las etiquetas semanticas
 Las etiquetas semanticas llegaron con la especificacion de __html5__, estas etiquetas nos ayudan a entender el significado de cada etiqueta y tambien nos ayudan a entender la distribucion del diseño con el uso correcta de estas. Las etiquetas semanticas son entendibles tanto por una persona como por los crawlers(rastreadores) de google y esto nos ayuda a la hora de posicionar nuestras paginas en los buscadores.
 
 __Imaginemos el siguiente layout (distribucion de elementos dentro de un diseño)__
@@ -17,7 +17,7 @@ Como podemos observar el codigo se divide a travez de etiquetas __div__ estas et
 
 
 
-##Etiquetas
+## Etiquetas
 Las etiquetas se categorizan por:
 * __Etiquetas meta__: son etiquetas que nos proporcionan informacion para el seo o referencian recursos, nos brindan informacion sobre la pagina.
 * __Etiquetas scripting__: Para el manejo de js.
@@ -31,7 +31,7 @@ Las etiquetas se categorizan por:
 Las etiquetas categorizadas arriba son las mas utilizadas. Aprendiendo estas etiquetas obtendremos todo el conocimiento necesario para poder estructurar nuestros diseños.
 
 
-##Enlaces de interes
+## Enlaces de interes
 
 [Referencia de elementos html5](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos)
 [html reference](https://htmlreference.io/)
