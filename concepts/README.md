@@ -33,12 +33,12 @@ Las etiquetas categorizadas arriba son las mas utilizadas. Aprendiendo estas eti
 
 ## Enlaces de interes
 
-[Referencia de elementos html5](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos)
-[html reference](https://htmlreference.io/)
-[meta etiquetas seo](http://www.analizosuweb.com/blog/como-usar-las-meta-etiquetas-de-html5/)
-[schema seo](https://platzi.com/blog/schema-seo/)
-[documentacion oficial schema](https://schema.org/)
-[Que es semantica](https://desarrolloweb.com/articulos/etiquetas-semanticas-html5.html)
-[Accesibilidad](https://developers.google.com/web/fundamentals/accessibility/?hl=es)
-[Curso de accesibilidad](https://www.udemy.com/aprende-accesibilidad-web-paso-a-paso/)
-[seo](https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores)
+* [Referencia de elementos html5](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos)
+* [html reference](https://htmlreference.io/)
+* [meta etiquetas seo](http://www.analizosuweb.com/blog/como-usar-las-meta-etiquetas-de-html5/)
+* [schema seo](https://platzi.com/blog/schema-seo/)
+* [documentacion oficial schema](https://schema.org/)
+* [Que es semantica](https://desarrolloweb.com/articulos/etiquetas-semanticas-html5.html)
+* [Accesibilidad](https://developers.google.com/web/fundamentals/accessibility/?hl=es)
+* [Curso de accesibilidad](https://www.udemy.com/aprende-accesibilidad-web-paso-a-paso/)
+* [seo](https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores)
