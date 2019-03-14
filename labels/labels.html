@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Labels</title>
+    <style>
+        .section {
+            padding: 0 20px;
+            border: 1px solid #cdcdcd;
+            background: #ececec;
+        }
+
+        .section-content {
+            margin-bottom: 30px;
+            padding-left: 10px;
+            border-left: 3px solid #c3c3c3;
+        }
+
+        .section-content h3:first-child {
+            padding: 5px 5px 5px 0;
+        }
+
+        .section-content:hover {
+            border-color: #000;
+        }
+
+        .section-content:hover>h3:first-child {
+            padding: 5px;
+            background: #000;
+            color: #fff;
+        }
+
+        .item-content {
+            margin: 0 0 20px;
+        }
+
+        .item-form {
+            margin: 10px 0 0;
+        }
+
+        .item-form input {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Etiquetas</h1>
+        <hr>
+        <br>
+        <section class="section">
+            <div class="section-content">
+                <h3>header</h3>
+                <p>
+                    <b>&#60;header&#62;</b> nos ayuda a seccionar la informacion de la cabezera de un sistema o pagina web.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>main</h3>
+                <p>
+                    <b>&#60;main&#62;</b> nos ayuda a seccionar la informacion principal de un sistema o pagina web.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>aside</h3>
+                <p>
+                    <b>&#60;aside&#62;</b> nos ayuda a seccionar la informacion lateral de un sistema o pagina web.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>section</h3>
+                <p>
+                    <b>&#60;section&#62;</b> nos ayuda a seccionar la informacion de una seccion de contenidos en comun.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>nav</h3>
+                <p>
+                    <b>&#60;nav&#62;</b> nos ayuda a seccionar la informacion que contenga elementos de navegacion.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>article</h3>
+                <p>
+                    <b>&#60;article&#62;</b> nos ayuda a seccionar la informacion autonoma e independiente que podria existir
+                    en su propio contexto.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>address</h3>
+                <p>
+                    <b>&#60;address&#62;</b> nos ayuda a seccionar la informacion de direcciones en su propio contexto.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>Headers</h3>
+                <p>Los etiquetas de titulo van desde el h1 al h6. Estas etiquetas nos sirven para declarar titulos, segun la
+                    jerarquia utilizaremos los titulos correspondientes.
+                    <b>Recuerden que por pagina solo se puede utilizar un h1</b>
+                </p>
+                <h1>&#60;h1&#62;</h1>
+                <h2>&#60;h2&#62;</h2>
+                <h3>&#60;h3&#62;</h3>
+                <h4>&#60;h4&#62;</h4>
+                <h5>&#60;h5&#62;</h5>
+                <h6>&#60;h6&#62;</h6>
+            </div>
+            <div class="section-content">
+                <h3>Parrafos</h3>
+                <p>Las etiquetas parrafo sirven para estructurar texto en forma de parrafo.
+                </p>
+                <p>
+                    <b>&#60;p&#62;</b>
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>Listas</h3>
+                <p>Las listas se utilizan cuando tenemos contenido del mismo tipo en forma de lista. Para manejar listas tenemos
+                    listas ordenadas y listas desordenadas. Todas las listas se crean con la etiqueta
+                    <b>&#60;li&#62;</b>
+                </p>
+                <p>
+                    <b>&#60;ul&#62;</b> lista desordenada</p>
+                <ul>
+                    <li>uno</li>
+                    <li>dos</li>
+                    <li>tres</li>
+                    <li>cuatro</li>
+                </ul>
+                <p>
+                    <b>&#60;ol&#62;</b> lista ordenada</p>
+                <ol>
+                    <li>uno</li>
+                    <li>dos</li>
+                    <li>tres</li>
+                    <li>cuatro</li>
+                </ol>
+            </div>
+            <div class="section-content">
+                <h3>div</h3>
+                <p>
+                    <b>&#60;div&#62;</b> nos sirve para agrupar contenido y crear secciones, esta etiqueta no tiene un significado
+                    semantico.
+                </p>
+            </div>
+            <div class="section-content">
+                <h3>figure</h3>
+                <p>
+                    <b>&#60;figure&#62;</b> nos ayuda a agrupar una imagen, a travez de figure podemos tambien utilizar la etiqueta
+                    <b>&#60;figcaption&#62;</b> con la cual podemos agregarle una descripcion a la imagen.
+                </p>
+
+                <figure>
+                    <img src="http://placekitten.com/200/300" alt="">
+                    <figcaption>Texto de caption</figcaption>
+                </figure>
+            </div>
+            <div class="section-content">
+                <h3>a</h3>
+                <p>
+                    <b>&#60;a&#62;</b> sirve para crear enlaces a otras paginas.
+                </p>
+                <a href="http://google.com">Ir a Google</a>
+            </div>
+            <div class="section-content">
+                <h3>table</h3>
+                <p>
+                    <b>&#60;table&#62;</b> Las etiquetas de tabla sirven para manejar informacion tabulada. Las tablas trabajan
+                    junto a las etiquetas
+                    <b>&#60;tr&#62;</b>,
+                    <b>&#60;td&#62;</b>
+                </p>
+
+                <table width="100%" border="1">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section-content">
+                <h3>Formularios</h3>
+                <p>
+                    Los formularios trabajan con un conjunto de etiquetas, el cual nos sirve para obtener informacion del usuario.
+                </p>
+
+                <div class="item-content">
+                    <b>&#60;form&#62;</b> Etiqueta para envolver un formulario.
+                </div>
+                <div class="item-content">
+                    <b>&#60;input type="text"&#62;</b> Etiqueta input typo text, esta etiqueta nos ayuda a obtener informacion
+                    en cualquier formato escrito. Esta etiqueta soporta multiples tipos, para una referencia mas amplia verifiquen
+                    la documentacion de mozilla.
+                    <div class="item-form">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="item-content">
+                    <b>&#60;input type="checkbox"&#62;</b> nos ayuda a seleccionar multiples valores de una misma categoria.
+                    <div class="item-form">
+                        Que ingrediente te gusta mas en tus comidas?
+                        <br> Fruta
+                        <input type="checkbox"> Carne
+                        <input type="checkbox"> Pollo
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="item-content">
+                    <b>&#60;input type="radio"&#62;</b> nos ayuda a seleccionar entre 2 valores de una misma categoria.
+                    <div class="item-form">
+                        Sexo
+                        <br>
+                        <input name="sex" type="radio"> masculino
+                        <input name="sex" type="radio"> femenino
+                    </div>
+                </div>
+                <div class="item-content">
+                    <b>&#60;select&#62;</b> nos ayuda a seleccionar un valor de una lista.
+                    <div class="item-form">
+                        De que pais eres
+                        <br>
+                        <select name="" id="">
+                            <option value="">Seleccionar</option>
+                            <option value="">Peru</option>
+                            <option value="">Chile</option>
+                            <option value="">Venezuela</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="item-content">
+                    <b>&#60;textarea&#62;</b> nos ayuda a ingresar texto como una descripcion.
+                    <div class="item-form">
+                        Ingresa tu texto aqui
+                        <br>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="item-content">
+                    <b>&#60;button&#62;</b> boton de formulario para enviar este.
+                    <div class="item-form">
+                        Ingresa tu texto aqui
+                        <br>
+                        <button>enviar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
