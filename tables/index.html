@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: #e6e6e6;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #e6e6e6;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead th,
+        tfoot td {
+            font-weight: bold;
+            font-size: 14px;
+            font-family: arial;
+            background: black;
+            color: white;
+        }
+
+        tbody td {
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+
+        .valign-top {
+            vertical-align: top;
+        }
+
+        .valign-bottom {
+            vertical-align: bottom;
+        }
+
+        .talign-center {
+            text-align: center;
+        }
+
+        .talign-left {
+            text-align: left;
+        }
+
+        .talign-right {
+            text-align: right;
+        }
+
+        .dflex {
+            display: flex;
+        }
+
+        .j-content-spacebtw {
+            justify-content: space-between;
+        }
+
+        .p0 {
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Tablas</h1>
+        <p>Las tablas nos ayudan a tabular informacion de manera uniforme</p>
+
+        <div>
+            <h2>table con tr y td </h2>
+
+            <table border="1">
+                <tr>
+                    <td class="valign-top p0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa
+                        modi ratione temporibus, cumque obcaecati, laboriosam iusto corrupti blanditiis repellat
+                        exercitationem, possimus aperiam nihil est cupiditate quia voluptatibus reprehenderit facilis?
+                    </td>
+                    <td class="valign-bottom talign-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur culpa modi ratione temporibus, cumque obcaecati, laboriosam iusto corrupti
+                        blanditiis repellat exercitationem, possimus aperiam nihil est cupiditate quia voluptatibus
+                        reprehenderit facilis?</td>
+                    <td class="talign-left">sebas</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa modi ratione
+                        temporibus, cumque obcaecati, laboriosam iusto corrupti blanditiis repellat exercitationem,
+                        possimus aperiam nihil est cupiditate quia voluptatibus reprehenderit facilis?</td>
+                </tr>
+                <tr>
+                    <td>Columna</td>
+                    <td>Columna</td>
+                    <td>Columna</td>
+                    <td>Columna</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2>Tabla con thead, tbody y tfoot</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>cabezera uno</th>
+                        <th>cabezera dos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cuerpo uno</td>
+                        <td>cuerpo dos</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>footer uno</td>
+                        <td>footer dos</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div>
+            <h2>Colspan</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">cabezera uno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cuerpo uno</td>
+                        <td>cuerpo dos</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>footer uno</td>
+                        <td>footer dos</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div>
+            <h2>Rowspan</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Savings</th>
+                        <th>Savings for holiday!</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                        <td rowspan="2">$50</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>$80</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>footer uno</td>
+                        <td>footer dos</td>
+                        <td>footer tres</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div>
+            <h2>Tablas anidadas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Savings</th>
+                        <th>Savings for holiday!</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                        <td class="p0">
+                            <table>
+                                <tr>
+                                    <td>uno</td>
+                                    <td>uno</td>
+                                    <td>uno</td>
+                                    <td>uno</td>
+                                </tr>
+                                <tr>
+                                    <td>dos</td>
+                                    <td>dos</td>
+                                    <td>dos</td>
+                                    <td>dos</td>
+                                </tr>
+                                <tr>
+                                    <td>tres</td>
+                                    <td>tres</td>
+                                    <td>tres</td>
+                                    <td>tres</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>$80</td>
+                        <td>$100</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>footer uno</td>
+                        <td>footer dos</td>
+                        <td>footer tres</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
