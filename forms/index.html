@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <style>
+        input:valid,
+        textarea:valid {
+            background: green;
+        }
+
+        input:focus:invalid,
+        textarea:focus:invalid {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <p>Los elementos de formulario son controles o etiquetas que nos van a permitir
+        obtener informacion del usuario. Entre las etiquetas que tenemos estan las siguientes
+    </p>
+
+    <hr>
+    <section>
+        <h2>Input</h2>
+        <p>La etiqueta input nos sirve para ingresar informacion del usuario y estan se definen por
+            su tipo de informacion.
+        </p>
+        <p><b>Entre los tipos de input tenemos</b></p>
+        <pre>
+            <code>
+    input type="button"
+    input type="checkbox"
+    input type="color"
+    input type="date"
+    input type="datetime-local"
+    input type="email"
+    input type="file"
+    input type="hidden"
+    input type="image"
+    input type="month"
+    input type="number"
+    input type="password"
+    input type="radio"
+    input type="range"
+    input type="reset"
+    input type="search"
+    input type="submit"
+    input type="tel"
+    input type="text"
+    input type="time"
+    input type="url"
+    input type="week"
+            </code>
+        </pre>
+        <div>
+            <h3>Input type="text"</h3>
+            <input type="text">
+        </div>
+        <div>
+            <h3>Input type="password"</h3>
+            <input type="password">
+        </div>
+        <div>
+            <h3>Input type="date"</h3>
+            <input type="date">
+        </div>
+        <div>
+            <h3>Input type="number"</h3>
+            <input type="number">
+        </div>
+        <div>
+            <h3>Input type="radio"</h3>
+            <input name="sex" type="radio">
+            <input name="sex" type="radio">
+        </div>
+        <div>
+            <h3>Input type="checkbox"</h3>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <h3>Input type="color"</h3>
+            <input type="color">
+        </div>
+        <div>
+            <h3>Input value="soy un boton" type="button"</h3>
+            <input value="soy un boton" type="button">
+        </div>
+        <div>
+            <h3>Input type="email"</h3>
+            <input type="email">
+        </div>
+        <div>
+            <h3>Input type="email"</h3>
+            <input type="week">
+        </div>
+        <div>
+            <h3>Input type="range"</h3>
+            <input type="range">
+        </div>
+        <div>
+            <h3>Input type="file"</h3>
+            <input type="file">
+        </div>
+    </section>
+    <section>
+        <h2>Select</h2>
+        <p>La etiqueta select nos ayuda a elegir entre multiples opciones desde un solo control
+        </p>
+        <div>
+            <h3>Select</h3>
+            <select>
+                <option value="">Seleccionar Pais</option>
+                <option value="1">Peru</option>
+                <option value="2">Argentina</option>
+                <option value="3">Chile</option>
+            </select>
+        </div>
+    </section>
+    <section>
+        <h2>Datalist</h2>
+        <p>Nos permite elegir informacion y filtrarla.
+        </p>
+        <div>
+            <label>Choose a browser from this list:
+                <input list="browsers" name="myBrowser" /></label>
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="Microsoft Edge">
+            </datalist>
+        </div>
+    </section>
+    <section>
+        <h2>Textarea</h2>
+        <p>Es identico a un input text solo que mas grande y tambien podemos configurar
+            el numero de files y columnas
+        </p>
+        <div>
+            <textarea cols="60" rows="30"></textarea>
+        </div>
+    </section>
+    <section>
+        <h2>Button</h2>
+        <p>Es un boton con estilos y tiene diferentes tipos
+        </p>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </section>
+    <section>
+        <h2>Form</h2>
+        <p>A travez de la etiqueta form podemos enviar valore del formulario
+        </p>
+        <div>
+            <form action="formulario.py">
+                <input name="nombre" type="text" placeholder="nombre">
+                <input name="apellido" type="text" placeholder="apellido">
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr>
+    <section>
+        <h2>Validacion de formularios</h2>
+        <p>A travez de los tipos de datos, podremos validar la informacion que ingresa</p>
+
+        <div>
+            <h4>Input</h4>
+            <form action="">
+                <!-- <input type="text" placeholder="nombre" 
+                pattern="[a-zA-Z0-9_-]{6,12}" 
+                required 
+                title="Este nombre es requerido"> -->
+                <input type="text" placeholder="nombre" minlength="4" maxlength="6" required 
+                    title="Este nombre es requerido">
+                <br><br>
+                <input type="email" required>
+                <br><br>
+                <button>Enviar</button>
+            </form>
+
+            <br><br>
+        </div>
+    </section>
+</body>
+
+</html>
